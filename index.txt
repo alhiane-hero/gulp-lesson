@@ -1,0 +1,25 @@
+// inside node environment:
+    * npm init => package.json:
+        """
+        This will guide you through giving your project a name, version, description, etc.
+        """;
+
+// to install any package using npm:
+    1 - install it globaly in your os => npm i ... -g;
+    2 - install it localy in your project => npm i --save-dev gulp;
+    """
+        - npm i gulp -g;
+        - npm i --save-dev gulp;
+        - gulp -v => CLI version: 2.3.0, Local version: 4.0.2;
+    """
+
+// --save vs --save-dev:
+    - --save => Dependencies => project depende on it to work;
+    - --save-dev => devDependencies => project doesn't depende on it to work;
+
+// get all files from gulp:
+    - index.html / about.html / hamel.html => *.html;
+    - index.css / about.css / hamel.css => *.css;
+    - index.html / about.html / index.css / about.css  => *.*;
+
+// get package with target version => npm i gulp@3.9.1-packageName;

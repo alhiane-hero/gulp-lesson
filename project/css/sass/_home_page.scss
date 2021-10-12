@@ -1,0 +1,14 @@
+.container {
+    .row {
+        &:first-of-type {
+            background-color: #080;
+            color: #fff;
+        }
+        &:nth-of-type(2) {
+            background-color: #f00;
+        }
+        &:last-of-type {
+            background-color: #00f;
+        }
+    }
+}

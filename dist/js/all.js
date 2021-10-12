@@ -1,0 +1,1 @@
+let one=1,addVar="Alhiane Lahcen";const btn=document.querySelector(".container button");btn.addEventListener("click",e=>console.log("Hello World!"));let three=3,two=2;
